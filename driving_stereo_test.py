@@ -37,7 +37,7 @@ for left_path, right_path, depth_path in zip(left_images, right_images, depth_im
 	# Read frame from the video
 	left_img = cv2.imread(left_path)
 	right_img = cv2.imread(right_path)
-	depth_img = cv2.imread(depth_path, cv2.IMREAD_UNCHANGED).astype(np.float32)
+	depth_img = cv2.imread(depth_path, cv2.IMREAD_UNCHANGED).astype(np.float32)/1000
 
 	# Estimate the depth
 	disparity_map = depth_estimator(left_img, right_img)
