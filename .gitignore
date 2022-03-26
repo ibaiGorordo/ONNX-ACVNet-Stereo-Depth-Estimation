@@ -9,10 +9,6 @@ __pycache__/
 # Dataset
 drivingStereo/
 
-# Models
-models/
-!models/.gitkeep
-
 # Distribution / packaging
 .Python
 build/
