@@ -16,20 +16,20 @@ git clone https://github.com/ibaiGorordo/ONNX-ACVNet-Stereo-Depth-Estimation.git
 cd ONNX-ACVNet-Stereo-Depth-Estimation
 pip install -r requirements.txt
 ```
-## ONNX Runtime
+### ONNX Runtime
 For Nvidia GPU computers:
 `pip install onnxruntime-gpu`
 
 Otherwise:
 `pip install onnxruntime`
 
-## For youtube video inference
+### For youtube video inference
 ```
 pip install youtube_dl
 pip install git+https://github.com/zizo-pro/pafy@b8976f22c19e4ab5515cacbfae0a3970370c102b
 ```
 
-## OAK-D Host inference:
+### OAK-D Host inference:
 ```pip install depthai```
 
 You might need additional installations, check the depthai reference below for more details.
